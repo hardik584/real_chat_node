@@ -17,4 +17,4 @@ socketio.on("connection", (userSocket) => {
     })
 })
 
-http.listen(8080)
+http.listen(process.env.PORT || 3000)
